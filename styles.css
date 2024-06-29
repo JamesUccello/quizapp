@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  
+ 
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px yellow;
+    text-align: center;
+    background-image: url('images/AdobeStock_436718596.png');
+    background-size: 30%; /* Adjusts the size of the background image */
+    background-position: left; /* Centers the background image */
+    /* Additional properties for background styling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* Optionally, set a background color */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
